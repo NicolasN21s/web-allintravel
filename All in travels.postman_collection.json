@@ -1,0 +1,341 @@
+{
+	"info": {
+		"_postman_id": "fb39f6a7-0f63-460a-b7df-f1c0b37a3138",
+		"name": "All in travels",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3054285",
+		"_collection_link": "https://tytdevelop.postman.co/workspace/tyt_develop-Workspace~4e1539dd-3824-4c02-8d68-efdf97cda67a/collection/3054285-fb39f6a7-0f63-460a-b7df-f1c0b37a3138?action=share&source=collection_link&creator=3054285"
+	},
+	"item": [
+		{
+			"name": "get-feed_instagram",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/get-feed_instagram/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"get-feed_instagram",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get companies",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/get-companies/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"get-companies",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get partners",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/get-partners/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"get-partners",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get banners",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/get-banners/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"get-banners",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get categories",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/get-categories/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"get-categories",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get blogs",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/get-blogs/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"get-blogs",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get travel_status",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/get-travel_statuses/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"get-travel_statuses",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get tags",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/get-tags/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"get-tags",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get-travels",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/get-travels/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"get-travels",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "set newsletter",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\": \"d@gmail.com\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/set-newsletter/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"set-newsletter",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "set quotations",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/set-quotations/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"set-quotations",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get customer_experiences",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.test.interactiva.net.co/api/get-customer_experiences/",
+					"protocol": "https",
+					"host": [
+						"api",
+						"test",
+						"interactiva",
+						"net",
+						"co"
+					],
+					"path": [
+						"api",
+						"get-customer_experiences",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

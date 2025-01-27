@@ -1,0 +1,507 @@
+/* Estilos personalizados */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-header {
+  background-image: url(../images/header.png);
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+  position: relative;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+  padding: 50px 0;
+}
+
+.logo-container {
+  margin-bottom: 20px; /* Espacio debajo del logo */
+}
+
+.logo-image {
+  width: 150px; /* Ajustar el tamaño del logo */
+  height: auto;
+}
+
+.hero-header h1 {
+  font-size: 3.5em;
+  margin-bottom: 0.5em;
+}
+
+.hero-header p.lead {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.hero-header p {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+}
+
+nav {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+  color: #000 !important;
+}
+
+.nav-link {
+  color: #000 !important;
+}
+
+.nav-link:hover {
+  color: #555 !important;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos para la sección Travel Options */
+.travel-options-section {
+  background-color: #fff;
+  color: #000;
+}
+
+.travel-options-section .card {
+  background-color: #fff; /* Cambiar el color de fondo de la tarjeta */
+  border: none; /* Quitar borde */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Añadir sombra */
+}
+
+.travel-options-section .card-img-top {
+  width: 100%;
+  height: 180px; /* Ajustar la altura de las imágenes */
+  object-fit: cover; /* Mantiene el contenido proporcional dentro del contenedor */
+}
+
+.travel-options-section .card-body {
+  text-align: center;
+}
+
+.travel-options-section .card-title {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Estilos para la sección About */
+.nosotros-section {
+  background-color: #fff;
+  color: #000; /* Color del texto por defecto */
+  text-align: left; /* Alinear todo el texto a la izquierda por defecto */
+}
+
+.nosotros-section h2 {
+  color: #cc8d04; /* Color del título NOSOTROS */
+  font-family: 'Montserrat', sans-serif; /* Aplicar la fuente Montserrat */
+  text-align: center; /* Mantener el título centrado */
+}
+
+.nosotros-section .display-4 {
+  font-size: 2.5em;
+  margin-bottom: 1em;
+}
+
+.nosotros-section .lead {
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  text-align: left; /* Alinear el texto a la izquierda */
+}
+
+.nosotros-section .img-fluid.square {
+  width: 80%; /* Ajusta el ancho relativo al contenedor */
+  height: 180px; /* Reduce la altura de la imagen */
+  object-fit: cover; /* Mantiene el contenido proporcional dentro del rectángulo */
+  margin-bottom: 10px; /* Espacio debajo de la imagen */
+  max-width: 300px; /* Limita el ancho máximo para pantallas grandes */
+}
+
+.icon-instagram {
+  color: #ffffff; /* Color del ícono de Instagram */
+  font-size: 1.5em; /* Tamaño del ícono */
+  margin-left: 0.1px; /* Espaciado del ícono */
+
+  display: inline-flex; /* Asegura que el contenido esté centrado */
+  align-items: center;
+  justify-content: center;
+
+  width: 11%; /* Ancho del círculo */
+  height: 30px; /* Alto del círculo */
+  border: 1px solid #e19430; /* Borde del círculo */
+  border-radius: 60%; /* Hace que el contenedor sea redondo */
+  background-color: #e19430; /* Fondo del círculo */
+  padding: 5px; /* Ajusta el espaciado interno si es necesario */
+}
+
+.icon-right {
+  color: #ffffff; /* Color de la flecha */
+  font-size: 1.5em; /* Tamaño de la flecha */
+  margin-right: 40px; /* Espaciado de la flecha */
+  
+  display: inline-flex; /* Asegura que el contenido esté centrado */
+  align-items: center;
+  justify-content: center;
+  
+  width: 30px; /* Ancho del círculo */
+  height: 30px; /* Alto del círculo */
+  border: 2px solid #ffffff; /* Borde del círculo */
+  border-radius: 50%; /* Hace que el contenedor sea redondo */
+  padding: 5px; /* Ajusta el espaciado interno si es necesario */
+}
+
+.instagram-handle {
+  text-align: center;
+}
+
+.nosotros-section .mt-2 {
+  margin-top: 10px;
+}
+
+.nosotros-section .mt-4 {
+  margin-top: 1.5rem !important;
+}
+
+
+/* Estilos para la sección Experiencias */
+.experiencias-section {
+  background-color: #fff;
+  color: #000;
+  padding: 2rem 0;
+}
+
+.experiencias-section h2 {
+  color: #cc8d04;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.experiencias-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 300px;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+  font-size: 1em;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.9em;
+  margin-bottom: 1rem;
+}
+
+.card-text.text-danger {
+  background-color: #f76e6a;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.card-text.text-warning {
+  background-color: #9e7336;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.card-text.text-success {
+  background-color: #5cb85c;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.btn {
+  background-color: #cc8d04;
+  color: #fff;
+  border: none;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.8em;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #b77c03;
+}
+
+/* Estilos para la sección Custom Experiences */
+.custom-experiences-section {
+  background-color: #fff;
+  color: #000;
+  padding: 50px 0;
+}
+
+.custom-experiences-section h2 {
+  color: #cc8d04;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1em;
+}
+
+.custom-experiences-section h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.custom-experiences-section p {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.custom-experiences-section .btn {
+  background-color: #ffae00; /* Cambiar el color del botón */
+  color: #000; /* Color del texto del botón */
+  border: none;
+  font-weight: bold;
+}
+
+.custom-experiences-section .btn:hover {
+  background-color: #db9703; /* Color de fondo del botón al pasar el cursor */
+  color: #fff; /* Color del texto del botón al pasar el cursor */
+}
+
+/* Estilos para la sección Blogs */
+.blogs-section {
+  background-color: #d39e2c; /* Fondo amarillo mostaza */
+  color: #000;
+  padding: 50px 0;
+}
+
+.blogs-section h2 {
+  color: #333; /* Color del texto del título */
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 2em;
+}
+
+.blogs-section .card {
+  background-color: #fff;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%; /* Asegurar que todas las tarjetas tengan la misma altura */
+}
+
+.blogs-section .card-title {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.blogs-section .card-text {
+  font-size: 1em;
+  margin-bottom: 1em;
+}
+
+.blogs-section .btn-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.blogs-section .btn-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.blogs-section .card-img-top {
+  width: 100%;
+  height: 180px; /* Ajusta la altura de las imágenes */
+  object-fit: cover; /* Mantiene el contenido proporcional dentro del contenedor */
+}
+
+/* Estilos para la sección Design Trip */
+.design-trip-section {
+  background-color: #d3d3d3; /* Fondo gris */
+  color: #000;
+  padding: 50px 0;
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+.design-trip-section h2 {
+  color: #cc8d04; /* Color del título */
+  font-family: 'Montserrat', sans-serif; /* Fuente del título */
+  margin-bottom: 1em;
+}
+
+.design-trip-section .lead {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.design-trip-section .form-label {
+  font-weight: bold;
+}
+
+.design-trip-section .form-control,
+.design-trip-section .form-select {
+  margin-bottom: 1em;
+  border-radius: 5px; /* Bordes redondeados para los campos del formulario */
+}
+
+.design-trip-section .form-check-label,
+.design-trip-section .form-check-input {
+  margin-bottom: 0.5em;
+}
+
+.design-trip-section .form-check {
+  margin-bottom: 1em;
+}
+
+.design-trip-section .btn {
+  background-color: #b37400;
+  color: #fff;
+  border: none;
+  border-radius: 5px; /* Bordes redondeados para el botón */
+}
+
+/*footer*/
+/* Estilos para la sección de alianzas estratégicas */
+.partner-section {
+  background-color: #fff; /* Fondo blanco */
+  padding: 50px 0;
+  text-align: center;
+}
+
+.partner-section h2 {
+  color: #333;
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.partner-logos .partner-logo {
+  max-width: 100px;
+  margin: 10px;
+}
+
+/* Estilos para la sección de la newsletter */
+.newsletter-section {
+  background-color: #0080ff; /* Fondo azul oscuro */
+  color: #fff;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.newsletter-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+  color: #ffae00;
+}
+
+.newsletter-form .input-group {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.newsletter-form .form-control {
+  border-radius: 0;
+}
+
+.newsletter-form .btn {
+  background-color: #ffae00; /* Color dorado */
+  color: #333;
+  border: none;
+  border-radius: 0;
+}
+
+/* Estilos para la sección de contacto y redes sociales */
+.contact-section {
+  background-color: #fff; /* Fondo blanco */
+  padding: 50px 0;
+  color: #333;
+}
+
+.contact-section .footer-logo {
+  max-width: 150px;
+  margin-bottom: 20px;
+}
+
+.contact-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-section ul li {
+  margin-bottom: 10px;
+}
+
+.contact-section ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.contact-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.contact-section p {
+  margin-bottom: 10px;
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+
+.social-icons a:hover {
+  color: #ffae00; /* Color dorado */
+}
+
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+  .nosotros-section .img-fluid.rectangle {
+    width: 100%; /* Usa todo el ancho en pantallas pequeñas */
+    height: 120px; /* Ajusta la altura para pantallas pequeñas */
+  }
+}
